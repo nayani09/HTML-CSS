@@ -1,0 +1,261 @@
+#header{
+    color:white;
+    border-radius: 4px;
+    background-color: #171B30;
+    height: 45px;
+    width: 1000px;
+    margin: auto;
+}
+#main, #main1, #newslet, #signin, #div1, #div2, #div3, #date{
+    
+    color:white;
+
+    background-color: #171B30;
+    border-radius: 4px;
+    
+    
+    
+}
+
+body{
+    background-color: black;
+}
+#setting, #account, #msg, #fav{
+   color: darkgray;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+
+}
+li{
+     color: darkgray;
+    float: left;
+    word-spacing: 60px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+mi{
+    color:darkgray;
+    height:5px;
+    width:5px;
+    border-radius:50%;
+}
+#id1{
+    float: right;
+}
+#img1 {
+    float: right;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6{
+   padding-top: 8px;
+    border-bottom: 1px solid black; 
+    height: 35px;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+#i1{
+    background-color: #14CBEB;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#img2{
+    
+    border-radius: 50%;
+    width: 100px ;
+    height: 100px;
+    border: 5px solid #09182D;
+    
+    
+}
+#main1{
+    padding: auto;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 320px;
+    border-radius: 4px;
+    padding-top:10px;
+
+}
+#main{
+    height: 260px;
+    float:left;
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 320px;
+}
+#p1{
+    font-size: 11pt;
+    color: linen;
+    text-align: center;
+}
+
+#newslet{
+    color: white;
+    width: 320px;
+    height:170px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+#txtbox1,#txtbox2, #txtbox3{
+    text-align: center;
+    background-color: #2B292B;
+    height:25px;
+    color: white;
+    border: none; 
+}
+#button1{
+    height: 30px;
+    width: 150px;
+    background-color: #14CBEB;
+    font-size: 10pt; 
+    color: white;
+    align-content: center;
+    border:none;
+}
+#signin{
+    color: white;
+    width: 320px;
+    height:275px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+#main11{
+    margin: auto;
+    width:200px;
+}
+#div1{
+    border-top-color: yellow;
+    border-width: 2px;
+    float: left;
+    width: 33%;
+    height:25px;
+    text-align: center;
+    margin-top:10px;
+}
+#div2{
+    border-top: 5px, solid, green;
+    float: left;
+    width:33%;
+    height:25px;
+    text-align: center;
+    margin-top:10px;
+}
+#div3{
+    border-top-color: darkred;
+    border-width: 2px;
+    float: left;
+    height:25px;
+    text-align: center;
+    margin-top:10px;
+    width:33%
+}
+#di1{
+    width: 33.33%;
+    height: 5px;
+    background-color: yellow;
+    float: left;
+}
+#di2{
+    width: 33.33%;
+    height: 5px;
+    background-color: #14CBEB;
+    float: left;
+}
+#di3{
+    width: 33.33%;
+    height: 5px;
+    background-color: #F70022;
+    float: left;
+}
+#button2{
+    height: 30px;
+    width: 120px;
+    background-color:darkred;
+    border:none;
+    font-size: 10pt; 
+    color: white;
+    align-content: center;
+}
+#forgotpswd{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 10pt;
+}
+#facebook{
+    background-color: darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#date{
+float:left;
+height:230px;
+width:320px;
+border-top-width: 20px;
+position:absolute;
+margin-top: 300px;
+margin-left: 35px;
+}
+#dat{
+    border: 30px solid #14CBEB;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin:auto;
+}
+#weather{
+    background-color: darkred;
+    color: white;
+    position: absolute;
+    margin-left:375px;
+    margin-top: 350px;
+    border-radius: 4px;
+    width: 320px;
+    height: 150px;
+}
+#i2, #i3, #i4, #i5, #i6{
+    padding-left: 20px;
+}
+#l1{
+    float:right; 
+    padding-right:20px; 
+    height:20px; 
+    width:8px; 
+    background-color:darkgray; 
+    color:white; 
+    border-radius: 50%;
+    
+}
+#dev{
+    background-color: darkred;
+    height:100px;
+    width: 320px;
+
+}
+#dev2
+{
+
+    background-color: #F70022;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100px;
+}
+#img3{
+    
+    height:120px;
+    width: 120px;
+    float: right;
+}
