@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header1{
+    background-image: url("http://previews.123rf.com/images/genika/genika1208/genika120800031/14773173-Colored-pencils-are-a-pattern-on-fabric-Stock-Photo-crayons-color-pencil.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    padding: 0px 40px 0px 40px;
+}
+#header{
+    float: right;
+    height: 350px;
+}
+#header > ul{
+    float: right;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+#header > ul > li{
+    float: left;
+    padding-left: 30px;
+    font-size: 14pt;
+    
+    
+}
+#header > ul > li > a{
+    text-decoration: none;
+    color: black; 
+}
+#header > ul > li:hover{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+#pp{
+    color: coral;
+    font-size: 66px;
+    letter-spacing: 5px;
+    padding-left: 70px;
+    padding-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p1{
+    padding-left: 75px;
+    position: relative;
+    font-size: 24px;
+}
+#left{
+    margin-top: 30px;
+    width: 20%;
+    height: 500px;
+}
+#right{
+    width: 80%;
+    height: 500px;
+    float: right;
+    margin-top: -530px;
+    margin-left: 20px;
+}
+.lt{
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px 10px 5px 10px;
+}
+.rt{
+    margin-left: 20px;
+    background-color: dodgerblue;
+    height: 50px;
+}
+.rt > h3{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.rb{
+   margin-left: 20px;
+    
+}
+.rb > p{
+    margin-left: 50px;
+}
+.rb > p > a{
+    color: red;
+}
+.rb > ul{
+    margin-left: 50px;
+}
+#footer{
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+#footer > ul > li{
+    float: left;
+    color: white;
+    padding-left: 30px;
+    
+}
+#footer > ul > li > a{
+    color: white;
+}
