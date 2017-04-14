@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script>
+var app=angular.module("myapp",[]);
+app.controller("control", function($scope){
+$scope.edit = function(a){
+    
+    $scope.obj = angular.copy(a);
+};
+
+$scope.data = [
+{
+"name": "Arun", 
+"Phone": 99394223423, 
+"address":"Bangalore", 
+"Rol_Id": 2 }, 
+{ "name": "Abhiram", 
+"Phone": 98989874743, 
+"address":"Hyderabad", 
+"Rol_Id": 3 }, 
+{ "name": "Gopi", 
+"Phone": 8984323423, 
+"address":"Singapor", 
+"Rol_Id": 4 } ];
+});
+$scope.save=function(d){
+ for(i=0; i<$scope.Rol_Id.length; i++){
+     if($scope.data[i].Rol_Id===d.Rol_Id){
+         $scope.data[i]=d;
+     }
+ }
+};
+</script>
+</head>
+<body>
+    <div ng-controller="control">
+        <input placeholder="name" ng-model="obj.name"/>
+        <input placeholder="phone" ng-model="obj.Phone"/>
+        <input placeholder="Address" ng-model="obj.address"/>
+        <input placeholder="rolid" ng-model="obj.Rol_Id"/>
+        <button ng-click="save(obj)">save</button>
+        <table border=1>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Rol Id</th>
+                <th>Action</th>
+            </tr>
+            <tr ng-repeat="d in data">
+                <td>{{d.name}}</td>
+                <td>{{d.Phone}}</td>
+                <td>{{d.address}}</td>
+                <td>{{d.Rol_Id}}</td>
+                <td><button ng-click="edit(d)">edit</button></td>
+            </tr>
+            </table>
+        </div>
+</body>
+</html>
